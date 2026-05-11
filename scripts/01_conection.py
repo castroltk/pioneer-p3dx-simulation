@@ -19,15 +19,12 @@ Robot: Pioneer p3dx
 
 OBJECTIVE:
 
-To confirm that Python can communicate with CoppeliaSim.
-
-It doesn't move anything, it only reads information.
+    To confirm that Python can communicate with CoppeliaSim.
+    It doesn't move anything, it only reads information.
 
 REQUIREMENTS:
-
-1. CoppeliaSim open.
-
-2. The simulation does NOT need to be running yet.
+    1. CoppeliaSim open.
+    2. The simulation does NOT need to be running yet.
 """
 
 from coppeliasim_zmqremoteapi_client import RemoteAPIClient
