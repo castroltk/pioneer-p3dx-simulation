@@ -1,18 +1,4 @@
 """
-Primer test: conectar con CoppeliaSim y verificar comunicacion.
-
-Autor:   Joaquin Castro Suarez
-Fecha:   09/05/2026
-Robot:   Pioneer p3dx
-
-OBJETIVO:
-    Confirmar que Python puede hablar con CoppeliaSim.
-    No mueve nada, solo lee informacion.
-
-REQUISITOS:
-    1. CoppeliaSim abierto.
-    2. La simulacion NO necesita estar corriendo todavia.
-=============================================================================
 Author: Joaquín Castro Suárez
 Date: 05/09/2026
 Robot: Pioneer p3dx

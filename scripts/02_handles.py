@@ -1,5 +1,5 @@
 '''
-Second test: Obtaining references (handles) to the Pioneer objects.
+Obtaining references (handles) to the Pioneer objects.
 
 Autor:   Joaquin Castro Suarez
 Fecha:   09/05/2026
@@ -35,9 +35,9 @@ try:
 
     ultrasonicSensor_list= []
     for i in range(0, 16):
-        handleSensor = sim.getObject(f'/PioneerP3DX/ultrasonicSensor[{i}]')
-        ultrasonicSensor_list.append(handleSensor)
-        print(f"Ultra sonic senor found. Handle {handleSensor}")
+        sensor = sim.getObject(f'/PioneerP3DX/ultrasonicSensor[{i}]')
+        ultrasonicSensor_list.append(sensor)
+        print(f"Sensor {i:2d} found. Handle {sensor}")
         
     
 except Exception as e:
